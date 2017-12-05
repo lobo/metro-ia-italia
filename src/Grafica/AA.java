@@ -86,123 +86,76 @@ public class AA {
 		Nodo Slotlaan = grafo.addNode("Slotlaan", 15, -11);
 		Nodo Capelle_Centrum  = grafo.addNode("Capelle Centrum", 16, -11);
 		Nodo De_Terp = grafo.addNode("De Terp", 17, -11);
+	
+		// Linea 1
+		//grafo.addEdge (Bisceglie, Inganni, 0.91, "linea 1");
+		//grafo.addEdge (Inganni, Primaticcio, 0.91, "linea 1");
+		//grafo.addEdge (Primaticcio, Bandenere, 0.91, "linea 1");
+		//grafo.addEdge (Bandenere, DeAngeli, 0.91, "linea 1");
+		//grafo.addEdge (DeAngeli, Wagner, 0.91, "linea 1");
+		//grafo.addEdge (Wagner, Pagano, 0.91, "linea 1");
+		//grafo.addEdge (Pagano, LottoFiera, 0.91, "linea 1");
+		//grafo.addEdge (LottoFiera, AmendolaFiera, 0.91, "linea 1");
+		//grafo.addEdge (AmendolaFiera, Buonarroti, 0.91, "linea 1");
+		//grafo.addEdge (Buonarroti, Pagano, 0.91, "linea 1");
+		//grafo.addEdge (Pagano, Conciliazione, 0.91, "linea 1");
+		//grafo.addEdge (Conciliazione, Cadorna, 0.91, "linea 1");
+		//grafo.addEdge (Cadorna, Cairoli, 0.91, "linea 1");
+		//grafo.addEdge (Cairoli, LanzaM2, 0.91, "linea 1");
+		//grafo.addEdge (LanzaM2, SAmbrogioM2, 0.91, "linea 1");
+		//grafo.addEdge (SAmbrogioM2, Cordusio, 0.91, "linea 1");
+		//grafo.addEdge (Cordusio, Duomo, 0.91, "linea 1");
+		//grafo.addEdge (Duomo, SBabila, 0.91, "linea 1");
+		//grafo.addEdge (SBabila, MissoriM3, 0.91, "linea 1");
+		//grafo.addEdge (MissoriM3, Montenapoleone, 0.91, "linea 1");
+		//grafo.addEdge (Montenapoleone, Palestro, 0.91, "linea 1");
+		//grafo.addEdge (Palestro, PTaVenezia, 0.91, "linea 1");
+		//grafo.addEdge (PTaVenezia, Lima, 0.91, "linea 1");
+		//grafo.addEdge (Lima, Loreto, 0.91, "linea 1");
+		//grafo.addEdge (Loreto, Pasteur, 0.91, "linea 1");
+		//grafo.addEdge (Pasteur, CaiazzoM2, 0.91, "linea 1");
+		//grafo.addEdge (CaiazzoM2, PiolaM2, 0.91, "linea 1");
+		//grafo.addEdge (PiolaM2, Rovereto, 0.91, "linea 1");
+		//grafo.addEdge (Rovereto, Turro, 0.91, "linea 1");
+		//grafo.addEdge (Turro, Gorla, 0.91, "linea 1");
+		//grafo.addEdge (Gorla, Precotto, 0.91, "linea 1");
+		//grafo.addEdge (Precotto, VillaSG, 0.91, "linea 1");
+	
+		
+		// Linea 2
+		//grafo.addEdge (Famagosta, Romolo, 0.91, "linea 2");
+		//grafo.addEdge (Romolo, PtaGenovaFs, 0.91, "linea 2");
+		//grafo.addEdge (PtaGenovaFs, SAgostino, 0.91, "linea 2");
+		//grafo.addEdge (SAgostino, SAmbrogio, 0.91, "linea 2");
+		//grafo.addEdge (SAmbrogio, Cadorna, 0.91, "linea 2");
+		//grafo.addEdge (Cadorna, Lanza, 0.91, "linea 2");
+		//grafo.addEdge (Lanza, Moscova, 0.91, "linea 2");
+		//grafo.addEdge (Moscova, Garibaldi, 0.91, "linea 2");
+		//grafo.addEdge (Garibaldi, Gioia, 0.91, "linea 2");
+		//grafo.addEdge (Gioia, Centrale, 0.91, "linea 2");
+		//grafo.addEdge (Centrale, Caiazzo, 0.91, "linea 2");
+		//grafo.addEdge (Caiazzo, SondrioM3, 0.91, "linea 2");
+		//grafo.addEdge (SondrioM3, RepubblicaM3, 0.91, "linea 2");
+		//grafo.addEdge (RepubblicaM3, Loreto, 0.91, "linea 2");
+		//grafo.addEdge (Loreto, Piola, 0.91, "linea 2");
+		//grafo.addEdge (Piola, LambrateFS, 0.91, "linea 2");
+		//grafo.addEdge (LambrateFS, Udine, 0.91, "linea 2");
+		//grafo.addEdge (Udine, Cimiano, 0.91, "linea 2");
+		//grafo.addEdge (Cimiano, Crescenzago, 0.91, "linea 2");
+		//grafo.addEdge (Crescenzago, CascinaGobba, 0.91, "linea 2");
 
-
-		// Linea A
-		grafo.addEdge (Schiedam_Centrum, Marconiplein, 1.76, "lineaA");		
-		grafo.addEdge (Marconiplein, Delfshaven, 0.96, "lineaA");		
-		grafo.addEdge (Delfshaven, Coolhaven, 0.86, "lineaA");		
-		grafo.addEdge (Coolhaven, Dijkzigt, 0.64, "lineaA");		
-		grafo.addEdge (Dijkzigt, Eendrachtsplein, 0.60, "lineaA");				
-		grafo.addEdge (Eendrachtsplein, Beurs, 0.62, "lineaA");				
-		grafo.addEdge (Beurs, Blaak, 0.61, "lineaA");				
-		grafo.addEdge (Blaak, Oostplein, 0.59, "lineaA");				
-		grafo.addEdge (Oostplein, Gerdesiaweg, 0.71, "lineaA");				
-		grafo.addEdge (Gerdesiaweg, Voorschoterlaan, 0.48, "lineaA");				
-		grafo.addEdge (Voorschoterlaan, Kralingse_Zoom, 1.52, "lineaA");				
-		grafo.addEdge (Kralingse_Zoom, Capelsebrug, 1.57, "lineaA");				
-		grafo.addEdge (Capelsebrug, Schenkel, 1.37, "lineaA");					
-		grafo.addEdge (Schenkel, Prinsenlaan, 0.94, "lineaA");					
-		grafo.addEdge (Prinsenlaan, Oosterflank, 0.56, "lineaA");					
-		grafo.addEdge (Oosterflank, Alexander, 0.82, "lineaA");					
-		grafo.addEdge (Alexander, Graskruid, 0.63, "lineaA");					
-		grafo.addEdge (Graskruid, Romeynshof, 0.65, "lineaA");					
-		grafo.addEdge (Romeynshof, Binnenhof, 0.51, "lineaA");	
-
-
-		// Linea B	
-		grafo.addEdge (Schiedam_Centrum, Marconiplein, 1.76, "lineaB");				
-		grafo.addEdge (Marconiplein, Delfshaven, 0.96, "lineaB");				
-		grafo.addEdge (Delfshaven, Coolhaven, 0.86, "lineaB");				
-		grafo.addEdge (Coolhaven, Dijkzigt, 0.64, "lineaB");				
-		grafo.addEdge (Dijkzigt, Eendrachtsplein, 0.60, "lineaB");				
-		grafo.addEdge (Eendrachtsplein, Beurs, 0.62, "lineaB");				
-		grafo.addEdge (Beurs, Blaak, 0.61, "lineaB");				
-		grafo.addEdge (Blaak, Oostplein, 0.59, "lineaB");				
-		grafo.addEdge (Oostplein, Gerdesiaweg, 0.71, "lineaB");				
-		grafo.addEdge (Gerdesiaweg, Voorschoterlaan, 0.48, "lineaB");				
-		grafo.addEdge (Voorschoterlaan, Kralingse_Zoom, 1.52, "lineaB");				
-		grafo.addEdge (Kralingse_Zoom, Capelsebrug, 1.57, "lineaB");				
-		grafo.addEdge (Capelsebrug, Schenkel, 1.37, "lineaB");					
-		grafo.addEdge (Schenkel, Prinsenlaan, 0.94, "lineaB");				
-		grafo.addEdge (Prinsenlaan, Oosterflank, 0.56, "lineaB");					
-		grafo.addEdge (Oosterflank, Alexander, 0.82, "lineaB");					
-		grafo.addEdge (Alexander, Graskruid, 0.63, "lineaB");					
-		grafo.addEdge (Graskruid, Hesseplaats, 0.66, "lineaB");				
-		grafo.addEdge (Hesseplaats, Nieuw_Verlaat, 0.64, "lineaB");				
-		grafo.addEdge (Nieuw_Verlaat, Ambachtsland, 0.59, "lineaB");				
-		grafo.addEdge (Ambachtsland, De_Tochten, 0.66, "lineaB");				
-		grafo.addEdge (De_Tochten, Nesselande, 1.27, "lineaB");
-
-
-		// Linea C
-		grafo.addEdge (De_Akkers, Heemraadlaan, 0.91, "lineaC");				
-		grafo.addEdge (Heemraadlaan, Spijkenisse_Centrum, 0.95,"lineaC");				
-		grafo.addEdge (Spijkenisse_Centrum, Zalmplaat, 2.20, "lineaC");				
-		grafo.addEdge (Zalmplaat, Hoogvliet, 0.63, "lineaC");				
-		grafo.addEdge (Hoogvliet, Tussenwater, 0.66, "lineaC");				
-		grafo.addEdge (Tussenwater, Pernis, 2.47, "lineaC");				
-		grafo.addEdge (Pernis, Vijfsluizen, 2.72, "lineaC");				
-		grafo.addEdge (Vijfsluizen, Troelstralaan, 1.14, "lineaC");				
-		grafo.addEdge (Troelstralaan, Parkweg, 0.99, "lineaC");				
-		grafo.addEdge (Parkweg, Schiedam_Centrum, 1.14, "lineaC");				
-		grafo.addEdge (Schiedam_Centrum, Marconiplein, 1.76, "lineaC");				
-		grafo.addEdge (Marconiplein, Delfshaven, 0.96, "lineaC");				
-		grafo.addEdge (Delfshaven, Coolhaven, 0.86, "lineaC");				
-		grafo.addEdge (Coolhaven, Dijkzigt, 0.64, "lineaC");				
-		grafo.addEdge (Dijkzigt, Eendrachtsplein, 0.60, "lineaC");				
-		grafo.addEdge (Eendrachtsplein, Beurs, 0.62, "lineaC");				
-		grafo.addEdge (Beurs, Blaak, 0.61, "lineaC");				
-		grafo.addEdge (Blaak, Oostplein, 0.59, "lineaC");				
-		grafo.addEdge (Oostplein, Gerdesiaweg, 0.71, "lineaC");				
-		grafo.addEdge (Gerdesiaweg, Voorschoterlaan, 0.48, "lineaC");				
-		grafo.addEdge (Voorschoterlaan, Kralingse_Zoom, 1.52, "lineaC");				
-		grafo.addEdge (Kralingse_Zoom, Capelsebrug, 1.57, "lineaC");				
-		grafo.addEdge (Capelsebrug, Slotlaan, 1.70, "lineaC");				
-		grafo.addEdge (Slotlaan, Capelle_Centrum, 0.87, "lineaC");				
-		grafo.addEdge (Capelle_Centrum, De_Terp, 0.82, "lineaC");
-
-		// Linea D
-		grafo.addEdge (De_Akkers, Heemraadlaan, 0.91, "lineaD");
-		grafo.addEdge (Heemraadlaan, Spijkenisse_Centrum, 0.95,"lineaD");
-		grafo.addEdge (Spijkenisse_Centrum, Zalmplaat, 2.20, "lineaD");
-		grafo.addEdge (Zalmplaat, Hoogvliet, 0.63, "lineaD");
-		grafo.addEdge (Hoogvliet, Tussenwater, 0.66, "lineaD");
-		grafo.addEdge (Tussenwater, Poortugaal, 1.38, "lineaD");
-		grafo.addEdge (Poortugaal, Rhoon, 1.60, "lineaD");
-		grafo.addEdge (Rhoon, Slinge, 4.36, "lineaD");
-		grafo.addEdge (Slinge, Zuidplein, 1.50, "lineaD");
-		grafo.addEdge (Zuidplein, Maashaven, 1.26, "lineaD");
-		grafo.addEdge (Maashaven, Rijnhaven, 0.78, "lineaD");
-		grafo.addEdge (Rijnhaven, Wilhelminaplein, 0.57, "lineaD");
-		grafo.addEdge (Wilhelminaplein, Leuvehaven, 0.94, "lineaD");
-		grafo.addEdge (Leuvehaven, Beurs, 0.51, "lineaD");
-		grafo.addEdge (Beurs, Stadhuis, 0.64, "lineaD");
-		grafo.addEdge (Stadhuis, Rotterdam_Centraal, 0.60, "lineaD"); 
-
-		// Linea E
-		grafo.addEdge (Den_Haag_Centraal , Laan_van_NOI , 1.28, "lineaE");
-		grafo.addEdge (Laan_van_NOI , Voorburg_t_Loo, 2.67,"lineaE");		//ESTACION NOMBRE RARO  Voorburgt Loo
-		grafo.addEdge (Voorburg_t_Loo, Leidschendam_Voorburg, 1.24, "lineaE");
-		grafo.addEdge (Leidschendam_Voorburg, Forepark, 1.12, "lineaE");
-		grafo.addEdge (Forepark, Leidschenveen, 0.76, "lineaE");
-		grafo.addEdge (Leidschenveen, Nootdorp, 2.23, "lineaA");
-		grafo.addEdge (Nootdorp, Pijnacker_Centruum, 3.40, "lineaE");
-		grafo.addEdge (Pijnacker_Centruum, Pijnacker_Zuid, 1.72, "lineaE");
-		grafo.addEdge (Pijnacker_Zuid, Berkel_Westpolder, 1.74, "lineaE");
-		grafo.addEdge (Berkel_Westpolder, Rodenrijs, 1.60, "lineaE");
-		grafo.addEdge (Rodenrijs, Meijersplein, 2.40, "lineaE");
-		grafo.addEdge (Meijersplein, Melanchthonweg, 0.77, "lineaE");
-		grafo.addEdge (Melanchthonweg,Blijdorp, 1.97, "lineaE");
-		grafo.addEdge (Blijdorp, Rotterdam_Centraal, 1.04, "lineaE");
-		grafo.addEdge (Rotterdam_Centraal, Stadhuis, 0.60, "lineaE");
-		grafo.addEdge (Stadhuis, Leuvehaven, 1.14, "lineaE");
-		grafo.addEdge (Leuvehaven, Wilhelminaplein, 0.94, "lineaE");
-		grafo.addEdge (Wilhelminaplein, Rijnhaven, 0.57, "lineaE");
-		grafo.addEdge (Rijnhaven, Maashaven, 0.78, "lineaE");
-		grafo.addEdge (Maashaven, Zuidplein, 1.26, "lineaE");
-		grafo.addEdge (Zuidplein, Slinge, 1.50, "lineaE");
-
+		// Linea 3
+		//grafo.addEdge (LodiTibb, PortaRomana, 0.91, "linea 3");
+		//grafo.addEdge (PortaRomana, Crocetta, 0.91, "linea 3");
+		//grafo.addEdge (Crocetta, Missori, 0.91, "linea 3");
+		//grafo.addEdge (Missori, Duomo, 0.91, "linea 3");
+		//grafo.addEdge (Duomo, Montenapoleone, 0.91, "linea 3");
+		//grafo.addEdge (Montenapoleone, Turati, 0.91, "linea 3");
+		//grafo.addEdge (Turati, Repubblica, 0.91, "linea 3");
+		//grafo.addEdge (Repubblica, Centrale, 0.91, "linea 3");
+		//grafo.addEdge (Centrale, Sondrio, 0.91, "linea 3");
+		//grafo.addEdge (Sondrio, Zara, 0.91, "linea 3");
+		//grafo.addEdge (Zara, Maciachini, 0.91, "linea 3");
 
 
 		Iterator<Edge> l = grafo.getMap().get(salida).iterator();
