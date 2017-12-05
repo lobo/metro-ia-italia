@@ -102,7 +102,7 @@ public LTreeNode<Elemento> CalcularRecorrido(){
 	 return (fin.element().getnodo().getNombre() == llegada.getNombre());
  }
  
- public List<Nodo> recorridoObtimo(LTreeNode<Elemento> fin){
+ public List<Nodo> recorridoOptimo(LTreeNode<Elemento> fin){
 	 List<Nodo> recorrido = new ArrayList<Nodo>();
 	 LTreeNode<Elemento> posicion = fin;
 	 boolean condicion = true;

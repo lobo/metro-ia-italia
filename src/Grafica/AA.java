@@ -232,7 +232,7 @@ public class AA {
 		String linea = "";
 		String lineaA = "Linea0";
 		Arbol arbol = new Arbol(salida, llegada, grafo);
-		List<Nodo> camino = arbol.recorridoObtimo(arbol.CalcularRecorrido());
+		List<Nodo> camino = arbol.recorridoOptimo(arbol.CalcularRecorrido());
 		List<Pixel> recorrido = new ArrayList<Pixel>();
 		Iterator<Nodo> iterador = camino.iterator();
 		Iterator<Nodo> iterador2 = camino.iterator();
