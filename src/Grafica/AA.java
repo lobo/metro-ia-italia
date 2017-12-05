@@ -141,6 +141,16 @@ public class AA {
 		Nodo Crescenzago = grafo.addNode("Crescenzago", 17, -11);
 		Nodo CascinaGobba = grafo.addNode("CascinaGobba", 17, -11);
 		
+		Nodo LodiTibb = grafo.addNode("LodiTibb", 17, -11);
+		Nodo PortaRomana = grafo.addNode("PortaRomana", 17, -11);
+		Nodo Crocetta = grafo.addNode("Crocetta", 17, -11);
+		Nodo Missori = grafo.addNode("Missori", 17, -11);
+		Nodo Turati = grafo.addNode("Turati", 17, -11);
+		Nodo Repubblica = grafo.addNode("Repubblica", 17, -11);
+		Nodo Sondrio = grafo.addNode("CascinaGSondrioobba", 17, -11);
+		Nodo Zara = grafo.addNode("Zara", 17, -11);
+		Nodo Maciachini = grafo.addNode("Maciachini", 17, -11);
+		
 	
 		// Linea 1
 		grafo.addEdge (Bisceglie, Inganni, 0.91, "linea 1");
@@ -199,17 +209,17 @@ public class AA {
 		grafo.addEdge (Crescenzago, CascinaGobba, 0.91, "linea 2");
 
 		// Linea 3
-		//grafo.addEdge (LodiTibb, PortaRomana, 0.91, "linea 3");
-		//grafo.addEdge (PortaRomana, Crocetta, 0.91, "linea 3");
-		//grafo.addEdge (Crocetta, Missori, 0.91, "linea 3");
-		//grafo.addEdge (Missori, Duomo, 0.91, "linea 3");
-		//grafo.addEdge (Duomo, Montenapoleone, 0.91, "linea 3");
-		//grafo.addEdge (Montenapoleone, Turati, 0.91, "linea 3");
-		//grafo.addEdge (Turati, Repubblica, 0.91, "linea 3");
-		//grafo.addEdge (Repubblica, Centrale, 0.91, "linea 3");
-		//grafo.addEdge (Centrale, Sondrio, 0.91, "linea 3");
-		//grafo.addEdge (Sondrio, Zara, 0.91, "linea 3");
-		//grafo.addEdge (Zara, Maciachini, 0.91, "linea 3");
+		grafo.addEdge (LodiTibb, PortaRomana, 0.91, "linea 3");
+		grafo.addEdge (PortaRomana, Crocetta, 0.91, "linea 3");
+		grafo.addEdge (Crocetta, Missori, 0.91, "linea 3");
+		grafo.addEdge (Missori, Duomo, 0.91, "linea 3");
+		grafo.addEdge (Duomo, Montenapoleone, 0.91, "linea 3");
+		grafo.addEdge (Montenapoleone, Turati, 0.91, "linea 3");
+		grafo.addEdge (Turati, Repubblica, 0.91, "linea 3");
+		grafo.addEdge (Repubblica, Centrale, 0.91, "linea 3");
+		grafo.addEdge (Centrale, Sondrio, 0.91, "linea 3");
+		grafo.addEdge (Sondrio, Zara, 0.91, "linea 3");
+		grafo.addEdge (Zara, Maciachini, 0.91, "linea 3");
 
 
 		Iterator<Edge> l = grafo.getMap().get(salida).iterator();
