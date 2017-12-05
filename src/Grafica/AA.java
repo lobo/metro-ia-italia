@@ -23,9 +23,9 @@ public class AA {
 		// Creacion de la linea de metro
 
 		//Estaciones
-
+		
+		/*
 		Nodo Den_Haag_Centraal = grafo.addNode("Den Haag Centraal", 0,0);
-		Nodo Laan_van_NOI = grafo.addNode("Laan van NOI", 1,0);
 		Nodo Voorburg_t_Loo = grafo.addNode("Voorburg t Loo", 2,0);
 		Nodo Leidschendam_Voorburg = grafo.addNode("Leidschendam-Voorburg", 3,0);
 		Nodo Forepark = grafo.addNode("Forepark", 4,0);
@@ -86,41 +86,76 @@ public class AA {
 		Nodo Slotlaan = grafo.addNode("Slotlaan", 15, -11);
 		Nodo Capelle_Centrum  = grafo.addNode("Capelle Centrum", 16, -11);
 		Nodo De_Terp = grafo.addNode("De Terp", 17, -11);
+		*/
+		
+		Nodo Bisceglie = grafo.addNode("Bisceglie", 17, -11);
+		Nodo Inganni = grafo.addNode("Inganni", 17, -11);
+		Nodo Primaticcio = grafo.addNode("Primaticcio", 17, -11);
+		Nodo Bandenere = grafo.addNode("Bandenere", 17, -11);
+		Nodo DeAngeli = grafo.addNode("DeAngeli", 17, -11);
+		Nodo Wagner = grafo.addNode("Wagner", 17, -11);
+		Nodo Pagano = grafo.addNode("Pagano", 17, -11);
+		Nodo LottoFiera = grafo.addNode("LottoFiera", 17, -11);
+		Nodo AmendolaFiera = grafo.addNode("AmendolaFiera", 17, -11);
+		Nodo Buonarroti = grafo.addNode("Buonarroti", 17, -11);
+		Nodo Conciliazione = grafo.addNode("Conciliazione", 17, -11);
+		Nodo Cadorna = grafo.addNode("Cadorna", 17, -11);
+		Nodo Cairoli = grafo.addNode("Cairoli", 17, -11);
+		Nodo LanzaM2 = grafo.addNode("LanzaM2", 17, -11);
+		Nodo SAmbrogioM2 = grafo.addNode("SAmbrogioM2", 17, -11);
+		Nodo Cordusio = grafo.addNode("Cordusio", 17, -11);
+		Nodo Duomo = grafo.addNode("Duomo", 17, -11);
+		Nodo SBabila = grafo.addNode("SBabila", 17, -11);
+		Nodo MissoriM3 = grafo.addNode("MissoriM3", 17, -11);
+		Nodo Montenapoleone = grafo.addNode("Montenapoleone", 17, -11);
+		Nodo Palestro = grafo.addNode("Palestro", 17, -11);
+		Nodo PTaVenezia = grafo.addNode("PTaVenezia", 17, -11);
+		Nodo Lima = grafo.addNode("Lima", 17, -11);
+		Nodo Loreto = grafo.addNode("Loreto", 17, -11);
+		Nodo Pasteur = grafo.addNode("Pasteur", 17, -11);
+		Nodo CaiazzoM2 = grafo.addNode("CaiazzoM2", 17, -11);
+		Nodo PiolaM2 = grafo.addNode("PiolaM2", 17, -11);
+		Nodo Rovereto = grafo.addNode("Rovereto", 17, -11);
+		Nodo Turro = grafo.addNode("Turro", 17, -11);
+		Nodo Gorla = grafo.addNode("Gorla", 17, -11);
+		Nodo Precotto = grafo.addNode("Precotto", 17, -11);
+		Nodo VillaSG = grafo.addNode("VillaSG", 17, -11);
+		
+		
 	
 		// Linea 1
-		//grafo.addEdge (Bisceglie, Inganni, 0.91, "linea 1");
-		//grafo.addEdge (Inganni, Primaticcio, 0.91, "linea 1");
-		//grafo.addEdge (Primaticcio, Bandenere, 0.91, "linea 1");
-		//grafo.addEdge (Bandenere, DeAngeli, 0.91, "linea 1");
-		//grafo.addEdge (DeAngeli, Wagner, 0.91, "linea 1");
-		//grafo.addEdge (Wagner, Pagano, 0.91, "linea 1");
-		//grafo.addEdge (Pagano, LottoFiera, 0.91, "linea 1");
-		//grafo.addEdge (LottoFiera, AmendolaFiera, 0.91, "linea 1");
-		//grafo.addEdge (AmendolaFiera, Buonarroti, 0.91, "linea 1");
-		//grafo.addEdge (Buonarroti, Pagano, 0.91, "linea 1");
-		//grafo.addEdge (Pagano, Conciliazione, 0.91, "linea 1");
-		//grafo.addEdge (Conciliazione, Cadorna, 0.91, "linea 1");
-		//grafo.addEdge (Cadorna, Cairoli, 0.91, "linea 1");
-		//grafo.addEdge (Cairoli, LanzaM2, 0.91, "linea 1");
-		//grafo.addEdge (LanzaM2, SAmbrogioM2, 0.91, "linea 1");
-		//grafo.addEdge (SAmbrogioM2, Cordusio, 0.91, "linea 1");
-		//grafo.addEdge (Cordusio, Duomo, 0.91, "linea 1");
-		//grafo.addEdge (Duomo, SBabila, 0.91, "linea 1");
-		//grafo.addEdge (SBabila, MissoriM3, 0.91, "linea 1");
-		//grafo.addEdge (MissoriM3, Montenapoleone, 0.91, "linea 1");
-		//grafo.addEdge (Montenapoleone, Palestro, 0.91, "linea 1");
-		//grafo.addEdge (Palestro, PTaVenezia, 0.91, "linea 1");
-		//grafo.addEdge (PTaVenezia, Lima, 0.91, "linea 1");
-		//grafo.addEdge (Lima, Loreto, 0.91, "linea 1");
-		//grafo.addEdge (Loreto, Pasteur, 0.91, "linea 1");
-		//grafo.addEdge (Pasteur, CaiazzoM2, 0.91, "linea 1");
-		//grafo.addEdge (CaiazzoM2, PiolaM2, 0.91, "linea 1");
-		//grafo.addEdge (PiolaM2, Rovereto, 0.91, "linea 1");
-		//grafo.addEdge (Rovereto, Turro, 0.91, "linea 1");
-		//grafo.addEdge (Turro, Gorla, 0.91, "linea 1");
-		//grafo.addEdge (Gorla, Precotto, 0.91, "linea 1");
-		//grafo.addEdge (Precotto, VillaSG, 0.91, "linea 1");
-	
+		grafo.addEdge (Bisceglie, Inganni, 0.91, "linea 1");
+		grafo.addEdge (Inganni, Primaticcio, 0.91, "linea 1");
+		grafo.addEdge (Primaticcio, Bandenere, 0.91, "linea 1");
+		grafo.addEdge (Bandenere, DeAngeli, 0.91, "linea 1");
+		grafo.addEdge (DeAngeli, Wagner, 0.91, "linea 1");
+		grafo.addEdge (Wagner, Pagano, 0.91, "linea 1");
+		grafo.addEdge (Pagano, LottoFiera, 0.91, "linea 1");
+		grafo.addEdge (LottoFiera, AmendolaFiera, 0.91, "linea 1");
+		grafo.addEdge (AmendolaFiera, Buonarroti, 0.91, "linea 1");
+		grafo.addEdge (Buonarroti, Pagano, 0.91, "linea 1");
+		grafo.addEdge (Pagano, Conciliazione, 0.91, "linea 1");
+		grafo.addEdge (Conciliazione, Cadorna, 0.91, "linea 1");
+		grafo.addEdge (Cadorna, Cairoli, 0.91, "linea 1");
+		grafo.addEdge (Cairoli, LanzaM2, 0.91, "linea 1");
+		grafo.addEdge (LanzaM2, SAmbrogioM2, 0.91, "linea 1");
+		grafo.addEdge (SAmbrogioM2, Cordusio, 0.91, "linea 1");
+		grafo.addEdge (Cordusio, Duomo, 0.91, "linea 1");
+		grafo.addEdge (Duomo, SBabila, 0.91, "linea 1");
+		grafo.addEdge (SBabila, MissoriM3, 0.91, "linea 1");
+		grafo.addEdge (MissoriM3, Montenapoleone, 0.91, "linea 1");
+		grafo.addEdge (Montenapoleone, Palestro, 0.91, "linea 1");
+		grafo.addEdge (Palestro, PTaVenezia, 0.91, "linea 1");
+		grafo.addEdge (PTaVenezia, Lima, 0.91, "linea 1");
+		grafo.addEdge (Lima, Loreto, 0.91, "linea 1");
+		grafo.addEdge (Loreto, Pasteur, 0.91, "linea 1");
+		grafo.addEdge (Pasteur, CaiazzoM2, 0.91, "linea 1");
+		grafo.addEdge (CaiazzoM2, PiolaM2, 0.91, "linea 1");
+		grafo.addEdge (PiolaM2, Rovereto, 0.91, "linea 1");
+		grafo.addEdge (Rovereto, Turro, 0.91, "linea 1");
+		grafo.addEdge (Turro, Gorla, 0.91, "linea 1");
+		grafo.addEdge (Gorla, Precotto, 0.91, "linea 1");
+		grafo.addEdge (Precotto, VillaSG, 0.91, "linea 1");
 		
 		// Linea 2
 		//grafo.addEdge (Famagosta, Romolo, 0.91, "linea 2");
