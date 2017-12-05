@@ -121,6 +121,25 @@ public class AA {
 		Nodo Precotto = grafo.addNode("Precotto", 17, -11);
 		Nodo VillaSG = grafo.addNode("VillaSG", 17, -11);
 		
+		Nodo Famagosta = grafo.addNode("Famagosta", 17, -11);
+		Nodo Romolo = grafo.addNode("Romolo", 17, -11);
+		Nodo PtaGenovaFs = grafo.addNode("PtaGenovaFs", 17, -11);
+		Nodo SAgostino = grafo.addNode("SAgostino", 17, -11);
+		Nodo SAmbrogio = grafo.addNode("SAmbrogio", 17, -11);
+		Nodo Lanza = grafo.addNode("Lanza", 17, -11);
+		Nodo Moscova = grafo.addNode("Moscova", 17, -11);
+		Nodo Garibaldi = grafo.addNode("Garibaldi", 17, -11);
+		Nodo Gioia = grafo.addNode("Gioia", 17, -11);
+		Nodo Centrale = grafo.addNode("Centrale", 17, -11);
+		Nodo Caiazzo = grafo.addNode("Caiazzo", 17, -11);
+		Nodo SondrioM3 = grafo.addNode("SondrioM3", 17, -11);
+		Nodo RepubblicaM3 = grafo.addNode("RepubblicaM3", 17, -11);
+		Nodo Piola = grafo.addNode("Piola", 17, -11);
+		Nodo LambrateFS = grafo.addNode("LambrateFS", 17, -11);
+		Nodo Udine = grafo.addNode("Udine", 17, -11);
+		Nodo Cimiano = grafo.addNode("Cimiano", 17, -11);
+		Nodo Crescenzago = grafo.addNode("Crescenzago", 17, -11);
+		Nodo CascinaGobba = grafo.addNode("CascinaGobba", 17, -11);
 		
 	
 		// Linea 1
@@ -158,26 +177,26 @@ public class AA {
 		grafo.addEdge (Precotto, VillaSG, 0.91, "linea 1");
 		
 		// Linea 2
-		//grafo.addEdge (Famagosta, Romolo, 0.91, "linea 2");
-		//grafo.addEdge (Romolo, PtaGenovaFs, 0.91, "linea 2");
-		//grafo.addEdge (PtaGenovaFs, SAgostino, 0.91, "linea 2");
-		//grafo.addEdge (SAgostino, SAmbrogio, 0.91, "linea 2");
-		//grafo.addEdge (SAmbrogio, Cadorna, 0.91, "linea 2");
-		//grafo.addEdge (Cadorna, Lanza, 0.91, "linea 2");
-		//grafo.addEdge (Lanza, Moscova, 0.91, "linea 2");
-		//grafo.addEdge (Moscova, Garibaldi, 0.91, "linea 2");
-		//grafo.addEdge (Garibaldi, Gioia, 0.91, "linea 2");
-		//grafo.addEdge (Gioia, Centrale, 0.91, "linea 2");
-		//grafo.addEdge (Centrale, Caiazzo, 0.91, "linea 2");
-		//grafo.addEdge (Caiazzo, SondrioM3, 0.91, "linea 2");
-		//grafo.addEdge (SondrioM3, RepubblicaM3, 0.91, "linea 2");
-		//grafo.addEdge (RepubblicaM3, Loreto, 0.91, "linea 2");
-		//grafo.addEdge (Loreto, Piola, 0.91, "linea 2");
-		//grafo.addEdge (Piola, LambrateFS, 0.91, "linea 2");
-		//grafo.addEdge (LambrateFS, Udine, 0.91, "linea 2");
-		//grafo.addEdge (Udine, Cimiano, 0.91, "linea 2");
-		//grafo.addEdge (Cimiano, Crescenzago, 0.91, "linea 2");
-		//grafo.addEdge (Crescenzago, CascinaGobba, 0.91, "linea 2");
+		grafo.addEdge (Famagosta, Romolo, 0.91, "linea 2");
+		grafo.addEdge (Romolo, PtaGenovaFs, 0.91, "linea 2");
+		grafo.addEdge (PtaGenovaFs, SAgostino, 0.91, "linea 2");
+		grafo.addEdge (SAgostino, SAmbrogio, 0.91, "linea 2");
+		grafo.addEdge (SAmbrogio, Cadorna, 0.91, "linea 2");
+		grafo.addEdge (Cadorna, Lanza, 0.91, "linea 2");
+		grafo.addEdge (Lanza, Moscova, 0.91, "linea 2");
+		grafo.addEdge (Moscova, Garibaldi, 0.91, "linea 2");
+		grafo.addEdge (Garibaldi, Gioia, 0.91, "linea 2");
+		grafo.addEdge (Gioia, Centrale, 0.91, "linea 2");
+		grafo.addEdge (Centrale, Caiazzo, 0.91, "linea 2");
+		grafo.addEdge (Caiazzo, SondrioM3, 0.91, "linea 2");
+		grafo.addEdge (SondrioM3, RepubblicaM3, 0.91, "linea 2");
+		grafo.addEdge (RepubblicaM3, Loreto, 0.91, "linea 2");
+		grafo.addEdge (Loreto, Piola, 0.91, "linea 2");
+		grafo.addEdge (Piola, LambrateFS, 0.91, "linea 2");
+		grafo.addEdge (LambrateFS, Udine, 0.91, "linea 2");
+		grafo.addEdge (Udine, Cimiano, 0.91, "linea 2");
+		grafo.addEdge (Cimiano, Crescenzago, 0.91, "linea 2");
+		grafo.addEdge (Crescenzago, CascinaGobba, 0.91, "linea 2");
 
 		// Linea 3
 		//grafo.addEdge (LodiTibb, PortaRomana, 0.91, "linea 3");
