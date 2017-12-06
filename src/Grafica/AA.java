@@ -88,78 +88,81 @@ public class AA {
 		Nodo De_Terp = grafo.addNode("De Terp", 17, -11);
 		*/
 		
-		Nodo Bisceglie = grafo.addNode("Bisceglie", 17, -11);
-		Nodo Inganni = grafo.addNode("Inganni", 17, -11);
-		Nodo Primaticcio = grafo.addNode("Primaticcio", 17, -11);
-		Nodo Bandenere = grafo.addNode("Bandenere", 17, -11);
-		Nodo DeAngeli = grafo.addNode("DeAngeli", 17, -11);
-		Nodo Wagner = grafo.addNode("Wagner", 17, -11);
-		Nodo Pagano = grafo.addNode("Pagano", 17, -11);
-		Nodo LottoFiera = grafo.addNode("LottoFiera", 17, -11);
-		Nodo AmendolaFiera = grafo.addNode("AmendolaFiera", 17, -11);
-		Nodo Buonarroti = grafo.addNode("Buonarroti", 17, -11);
-		Nodo Conciliazione = grafo.addNode("Conciliazione", 17, -11);
-		Nodo Cadorna = grafo.addNode("Cadorna", 17, -11);
-		Nodo Cairoli = grafo.addNode("Cairoli", 17, -11);
-		Nodo LanzaM2 = grafo.addNode("LanzaM2", 17, -11);
-		Nodo SAmbrogioM2 = grafo.addNode("SAmbrogioM2", 17, -11);
-		Nodo Cordusio = grafo.addNode("Cordusio", 17, -11);
-		Nodo Duomo = grafo.addNode("Duomo", 17, -11);
-		Nodo SBabila = grafo.addNode("SBabila", 17, -11);
+		Nodo Bisceglie = grafo.addNode("Bisceglie", 0, 17); //done
+		Nodo Inganni = grafo.addNode("Inganni", 1, 16); //done
+		Nodo Primaticcio = grafo.addNode("Primaticcio", 2, 15); //done
+		Nodo Bandenere = grafo.addNode("Bandenere", 3, 14); //done
+		Nodo Gambara = grafo.addNode("Gambara", 4, 13); //done
+		Nodo DeAngeli = grafo.addNode("DeAngeli", 5, 12); //done
+		Nodo Wagner = grafo.addNode("Wagner", 6, 11); //done
+		Nodo Pagano = grafo.addNode("Pagano", 7, 10); //done
+		Nodo QT8 = grafo.addNode("QT8", 3, 6); //done
+		Nodo LottoFiera = grafo.addNode("LottoFiera", 4, 7); //done
+		Nodo AmendolaFiera = grafo.addNode("AmendolaFiera", 5, 8); //done
+		Nodo Buonarroti = grafo.addNode("Buonarroti", 6, 9); //done
+		Nodo Conciliazione = grafo.addNode("Conciliazione", 8, 10); //done
+		Nodo Cadorna = grafo.addNode("Cadorna", 9, 10); //done
+		Nodo Cairoli = grafo.addNode("Cairoli", 10, 10); //done
+		Nodo LanzaM2 = grafo.addNode("LanzaM2", 9, 9); //done
+		Nodo SAmbrogioM2 = grafo.addNode("SAmbrogioM2", 9, 11); //done
+		Nodo Cordusio = grafo.addNode("Cordusio", 11, 10); //done
+		Nodo Duomo = grafo.addNode("Duomo", 12, 10); //done
+		Nodo SBabila = grafo.addNode("SBabila", 13, 10); //done
 		Nodo MissoriM3 = grafo.addNode("MissoriM3", 17, -11);
-		Nodo Montenapoleone = grafo.addNode("Montenapoleone", 17, -11);
-		Nodo Palestro = grafo.addNode("Palestro", 17, -11);
-		Nodo PTaVenezia = grafo.addNode("PTaVenezia", 17, -11);
-		Nodo Lima = grafo.addNode("Lima", 17, -11);
-		Nodo Loreto = grafo.addNode("Loreto", 17, -11);
-		Nodo Pasteur = grafo.addNode("Pasteur", 17, -11);
+		Nodo Montenapoleone = grafo.addNode("Montenapoleone", 12, 9); //done
+		Nodo Palestro = grafo.addNode("Palestro", 14, 10); //done
+		Nodo PTaVenezia = grafo.addNode("PTaVenezia", 15, 10); //done
+		Nodo Lima = grafo.addNode("Lima", 16, 9); //done
+		Nodo Loreto = grafo.addNode("Loreto", 16, 8); //done
+		Nodo Pasteur = grafo.addNode("Pasteur", 16, 7); //done
 		Nodo CaiazzoM2 = grafo.addNode("CaiazzoM2", 17, -11);
 		Nodo PiolaM2 = grafo.addNode("PiolaM2", 17, -11);
-		Nodo Rovereto = grafo.addNode("Rovereto", 17, -11);
-		Nodo Turro = grafo.addNode("Turro", 17, -11);
-		Nodo Gorla = grafo.addNode("Gorla", 17, -11);
-		Nodo Precotto = grafo.addNode("Precotto", 17, -11);
-		Nodo VillaSG = grafo.addNode("VillaSG", 17, -11);
+		Nodo Rovereto = grafo.addNode("Rovereto", 16, 6); //done
+		Nodo Turro = grafo.addNode("Turro", 16, 5); //done
+		Nodo Gorla = grafo.addNode("Gorla", 16, 4); //done
+		Nodo Precotto = grafo.addNode("Precotto", 16, 3); //done
+		Nodo VillaSG = grafo.addNode("VillaSG", 16, 2); //done
 		
-		Nodo Famagosta = grafo.addNode("Famagosta", 17, -11);
-		Nodo Romolo = grafo.addNode("Romolo", 17, -11);
-		Nodo PtaGenovaFs = grafo.addNode("PtaGenovaFs", 17, -11);
-		Nodo SAgostino = grafo.addNode("SAgostino", 17, -11);
-		Nodo SAmbrogio = grafo.addNode("SAmbrogio", 17, -11);
-		Nodo Lanza = grafo.addNode("Lanza", 17, -11);
-		Nodo Moscova = grafo.addNode("Moscova", 17, -11);
-		Nodo Garibaldi = grafo.addNode("Garibaldi", 17, -11);
-		Nodo Gioia = grafo.addNode("Gioia", 17, -11);
-		Nodo Centrale = grafo.addNode("Centrale", 17, -11);
-		Nodo Caiazzo = grafo.addNode("Caiazzo", 17, -11);
-		Nodo SondrioM3 = grafo.addNode("SondrioM3", 17, -11);
-		Nodo RepubblicaM3 = grafo.addNode("RepubblicaM3", 17, -11);
-		Nodo Piola = grafo.addNode("Piola", 17, -11);
-		Nodo LambrateFS = grafo.addNode("LambrateFS", 17, -11);
-		Nodo Udine = grafo.addNode("Udine", 17, -11);
-		Nodo Cimiano = grafo.addNode("Cimiano", 17, -11);
-		Nodo Crescenzago = grafo.addNode("Crescenzago", 17, -11);
-		Nodo CascinaGobba = grafo.addNode("CascinaGobba", 17, -11);
+		Nodo Famagosta = grafo.addNode("Famagosta", 9, 15); //done
+		Nodo Romolo = grafo.addNode("Romolo", 9, 14); //done
+		Nodo PtaGenovaFs = grafo.addNode("PtaGenovaFs", 9, 13); //done
+		Nodo SAgostino = grafo.addNode("SAgostino", 9, 12); //done
+		Nodo SAmbrogio = grafo.addNode("SAmbrogio", 9, 11); //done
+		Nodo Lanza = grafo.addNode("Lanza", 9, 9); //done
+		Nodo Moscova = grafo.addNode("Moscova", 10, 8); //done
+		Nodo Garibaldi = grafo.addNode("Garibaldi", 11, 7); //done
+		Nodo Gioia = grafo.addNode("Gioia", 12, 6); //done
+		Nodo Centrale = grafo.addNode("Centrale", 13, 6); //done
+		Nodo Caiazzo = grafo.addNode("Caiazzo", 17, -11); // revisar este
+		Nodo SondrioM3 = grafo.addNode("SondrioM3", 14, 5); //done
+		Nodo Piola = grafo.addNode("Piola", 17, 8); //done
+		Nodo LambrateFS = grafo.addNode("LambrateFS", 18, 8); //done
+		Nodo Udine = grafo.addNode("Udine", 19, 9); //done
+		Nodo Cimiano = grafo.addNode("Cimiano", 19, 8); //done
+		Nodo Crescenzago = grafo.addNode("Crescenzago", 19, 7); //done
+		Nodo CascinaGobba = grafo.addNode("CascinaGobba", 19, 6); //done
 		
-		Nodo LodiTibb = grafo.addNode("LodiTibb", 17, -11);
-		Nodo PortaRomana = grafo.addNode("PortaRomana", 17, -11);
-		Nodo Crocetta = grafo.addNode("Crocetta", 17, -11);
-		Nodo Missori = grafo.addNode("Missori", 17, -11);
-		Nodo Turati = grafo.addNode("Turati", 17, -11);
-		Nodo Repubblica = grafo.addNode("Repubblica", 17, -11);
-		Nodo Sondrio = grafo.addNode("CascinaGSondrioobba", 17, -11);
-		Nodo Zara = grafo.addNode("Zara", 17, -11);
-		Nodo Maciachini = grafo.addNode("Maciachini", 17, -11);
+		Nodo LodiTibb = grafo.addNode("LodiTibb", 15, 14); //done
+		Nodo PortaRomana = grafo.addNode("PortaRomana", 14, 13); //done
+		Nodo Crocetta = grafo.addNode("Crocetta", 13, 12); //done
+		Nodo Missori = grafo.addNode("Missori", 12, 11); //done
+		Nodo Turati = grafo.addNode("Turati", 13, 8); //done
+		Nodo Repubblica = grafo.addNode("Repubblica", 14, 7); //done
+		Nodo Sondrio = grafo.addNode("Sondrio", 14, 5); //done
+		Nodo Zara = grafo.addNode("Zara", 14, 4); //done
+		Nodo Maciachini = grafo.addNode("Maciachini", 14, 3); //done
+		Nodo RepubblicaM3 = grafo.addNode("RepubblicaM3", 14, 7); //done 
 		
 	
 		// Linea 1
 		grafo.addEdge (Bisceglie, Inganni, 0.91, "linea 1");
 		grafo.addEdge (Inganni, Primaticcio, 0.91, "linea 1");
 		grafo.addEdge (Primaticcio, Bandenere, 0.91, "linea 1");
-		grafo.addEdge (Bandenere, DeAngeli, 0.91, "linea 1");
+		grafo.addEdge (Bandenere, Gambara, 0.91, "linea 1");
+		grafo.addEdge (Gambara, DeAngeli, 0.91, "linea 1");
 		grafo.addEdge (DeAngeli, Wagner, 0.91, "linea 1");
 		grafo.addEdge (Wagner, Pagano, 0.91, "linea 1");
-		grafo.addEdge (Pagano, LottoFiera, 0.91, "linea 1");
+		grafo.addEdge (QT8, LottoFiera, 0.91, "linea 1");
 		grafo.addEdge (LottoFiera, AmendolaFiera, 0.91, "linea 1");
 		grafo.addEdge (AmendolaFiera, Buonarroti, 0.91, "linea 1");
 		grafo.addEdge (Buonarroti, Pagano, 0.91, "linea 1");
