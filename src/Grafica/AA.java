@@ -23,71 +23,7 @@ public class AA {
 		// Creacion de la linea de metro
 
 		//Estaciones
-		
-		/*
-		Nodo Den_Haag_Centraal = grafo.addNode("Den Haag Centraal", 0,0);
-		Nodo Voorburg_t_Loo = grafo.addNode("Voorburg t Loo", 2,0);
-		Nodo Leidschendam_Voorburg = grafo.addNode("Leidschendam-Voorburg", 3,0);
-		Nodo Forepark = grafo.addNode("Forepark", 4,0);
-		Nodo Leidschenveen = grafo.addNode("Leidschenveen", 6,0);
-		Nodo Nootdorp = grafo.addNode("Noordorp", 6,-1);
-		Nodo Pijnacker_Centruum = grafo.addNode("Pijnacker Centruum", 7,-2);
-		Nodo Pijnacker_Zuid = grafo.addNode("Pijnacker Zuid", 7, -3);
-		Nodo Berkel_Westpolder = grafo.addNode("Berkel Westpolder", 7, -4);
-		Nodo Rodenrijs = grafo.addNode("Rodenrijs", 7, -5);
-		Nodo Meijersplein = grafo.addNode("Meijersplein", 7, -6);
-		Nodo Melanchthonweg = grafo.addNode("Melanchthonweg", 7, -7);
-		Nodo Blijdorp = grafo.addNode("Blijdorp", 7, -8);
-		Nodo Rotterdam_Centraal = grafo.addNode("Rotterdam Centraal", 7, -9);
-		Nodo Stadhuis = grafo.addNode("Stadhuis", 7, -10);
-		Nodo Beurs = grafo.addNode("Beurs", 7, -11);
-		Nodo Leuvehaven = grafo.addNode("Leuvehaven", 7, -12);
-		Nodo Wilhelminaplein = grafo.addNode("Wilhelminaplein", 7, -13);
-		Nodo Rijnhaven = grafo.addNode("Rijnhaven", 7, -14);
-		Nodo Maashaven = grafo.addNode("Maashaven", 7, -15);
-		Nodo Zuidplein = grafo.addNode("Zuidplein", 7, -16);
-		Nodo Slinge = grafo.addNode("Slinge", 7, -17);
-		Nodo Rhoon = grafo.addNode("Rhoon", 4, -18);
-		Nodo Poortugaal = grafo.addNode("Poortugaal", 2, -18 );
-		Nodo Tussenwater = grafo.addNode("Tussenwater", 0, -18);
-		Nodo Hoogvliet = grafo.addNode("Hoogvliet", -1, -19);
-		Nodo Zalmplaat = grafo.addNode("Zalmplaat", -1, -20);
-		Nodo Spijkenisse_Centrum = grafo.addNode("Spijkenisse Centrum", -2, -21);
-		Nodo Heemraadlaan = grafo.addNode("Heemraadlaan", -3, -22);
-		Nodo De_Akkers = grafo.addNode("De Akkers", -4, -23);
-		Nodo Schiedam_Centrum = grafo.addNode("Schiedam Centrum", 1, -11);
-		Nodo Marconiplein = grafo.addNode("Marconiplein", 2, -11);
-		Nodo Delfshaven = grafo.addNode("Delfshaven", 3, -11);
-		Nodo Coolhaven = grafo.addNode("Coolhaven", 4, -11);
-		Nodo Dijkzigt = grafo.addNode("Dijkzigt", 5, -11);
-		Nodo Eendrachtsplein = grafo.addNode("Eendrachtsplein", 6, -11);
-		Nodo Blaak = grafo.addNode("Blaak", 8,-11);
-		Nodo Oostplein = grafo.addNode("Oostplein", 9,-11);
-		Nodo Gerdesiaweg = grafo.addNode("Gerdesiaweg", 10, -11);
-		Nodo Voorschoterlaan = grafo.addNode("Voorschoterlaan", 11, -11);
-		Nodo Kralingse_Zoom = grafo.addNode("Kralingse Zoom", 12, -11);
-		Nodo Capelsebrug = grafo.addNode("Capelsebrug", 13, -11);
-		Nodo Schenkel = grafo.addNode("Schenkel", 14, -10);
-		Nodo Prinsenlaan = grafo.addNode("Prinsenlaan", 14, -9);
-		Nodo Oosterflank = grafo.addNode("Oosterflank", 14, -8);
-		Nodo Alexander = grafo.addNode("Alexander", 14, -7);
-		Nodo Graskruid = grafo.addNode("Graskruid", 14, -6);
-		Nodo Romeynshof = grafo.addNode("Romeynshof", 13, -5);
-		Nodo Binnenhof = grafo.addNode("Binnenhof", 12, -5);
-		Nodo Hesseplaats = grafo.addNode("Hesseplaats", 15 , -5);
-		Nodo Nieuw_Verlaat = grafo.addNode("Nieuw Verlaat", 16, -5);
-		Nodo Ambachtsland = grafo.addNode("Ambachtsland", 17, -5);
-		Nodo De_Tochten = grafo.addNode("De Tochten", 18, -5);
-		Nodo Nesselande = grafo.addNode("Nesselande", 19 , -5);
-		Nodo Pernis = grafo.addNode("Pernis", 0, -15);
-		Nodo Vijfsluizen = grafo.addNode("Vijfsluizen", 0, -14);
-		Nodo Troelstralaan = grafo.addNode("Troelstralaan", 0, -13);
-		Nodo Parkweg = grafo.addNode("Parkweg", 0, -12);
-		Nodo Slotlaan = grafo.addNode("Slotlaan", 15, -11);
-		Nodo Capelle_Centrum  = grafo.addNode("Capelle Centrum", 16, -11);
-		Nodo De_Terp = grafo.addNode("De Terp", 17, -11);
-		*/
-		
+				
 		Nodo Bisceglie = grafo.addNode("Bisceglie", 0, 17); //done
 		Nodo Inganni = grafo.addNode("Inganni", 1, 16); //done
 		Nodo Primaticcio = grafo.addNode("Primaticcio", 2, 15); //done

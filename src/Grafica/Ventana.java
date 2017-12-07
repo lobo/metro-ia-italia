@@ -23,49 +23,49 @@ public class Ventana extends JFrame{
    public Ventana(){
       super( "Camino optimo" );    
  
-// establecer menú Archivo y sus elementos de menú
+// establecer menï¿½ Archivo y sus elementos de menï¿½
       JMenu menuArchivo = new JMenu( "Archivo" );
       menuArchivo.setMnemonic( 'A' );
  
-      // establecer elemento de menú Acerca de...
+      // establecer elemento de menï¿½ Acerca de...
       JMenuItem elementoAcerca = new JMenuItem( "Acerca de..." );
       elementoAcerca.setMnemonic( 'A' );
       menuArchivo.add( elementoAcerca );
       elementoAcerca.addActionListener(
  
-         new ActionListener() {  // clase interna anónima
+         new ActionListener() {  // clase interna anï¿½nima
  
-            // mostrar cuadro de diálogo de mensaje cuando el usuario seleccione Acerca de...
+            // mostrar cuadro de diï¿½logo de mensaje cuando el usuario seleccione Acerca de...
             public void actionPerformed( ActionEvent evento )
             {
             	JOptionPane.showMessageDialog( Ventana.this,
-            			"Este software fue diseñado por:\nEstefano Carrillo Blanco",
+            			"Este software fue disenado por el grupo 4",
             	                  "Acerca de", JOptionPane.PLAIN_MESSAGE );
             }
  
-         }  // fin de la clase interna anónima
+         }  // fin de la clase interna anonima
  
       ); // fin de la llamada a addActionListener
  
-      // establecer elemento de menú Salir
+      // establecer elemento de menu Salir
       JMenuItem elementoSalir = new JMenuItem( "Salir" );
       elementoSalir.setMnemonic( 'S' );
       menuArchivo.add( elementoSalir );
       elementoSalir.addActionListener(
  
-         new ActionListener() {  // clase interna anónima
+         new ActionListener() {  // clase interna anï¿½nima
  
-            // terminar la aplicación cuando el usuario haga clic en elementoSalir
+            // terminar la aplicacion cuando el usuario haga clic en elementoSalir
             public void actionPerformed( ActionEvent evento )
             {
                System.exit( 0 );
             }
  
-         }  // fin de la clase interna anónima
+         }  // fin de la clase interna anï¿½nima
  
       ); // fin de la llamada a addActionListener
  
-      // crear barra de menús y adjuntarla a la ventana 
+      // crear barra de menï¿½s y adjuntarla a la ventana 
       JMenuBar barra = new JMenuBar();
       setJMenuBar( barra );
       barra.add( menuArchivo );   
@@ -87,8 +87,8 @@ public class Ventana extends JFrame{
       Aceptar.setBounds(390, 250, 120, 40);
       contentpane.add(Aceptar);
       Aceptar.addActionListener(
-    	         new ActionListener() {  // clase interna anónima
-    	            // terminar la aplicación cuando el usuario haga clic en elementoSalir
+    	         new ActionListener() {  // clase interna anonima
+    	            // terminar la aplicacion cuando el usuario haga clic en elementoSalir
     	            public void actionPerformed( ActionEvent evento )
     	            {
      	               System.out.print(Salida);
@@ -100,11 +100,11 @@ public class Ventana extends JFrame{
     	              // texto.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
     	               Dibujo aplicacion = new Dibujo(AEstrella.recorridoOptimo());
     	            }
-    	         }  // fin de la clase interna anónima    	 
+    	         }  // fin de la clase interna anï¿½nima    	 
     	      ); // fin de la llamada a addActionListener
 
       // establecer etiqueta para mostrar texto
-      pantallaEtiqueta = new JLabel( "Metro de Rotterdam", SwingConstants.CENTER);
+      pantallaEtiqueta = new JLabel( "Metro de Milan", SwingConstants.CENTER);
       pantallaEtiqueta.setBounds(20, 20, 0, 0);
       pantallaEtiqueta.setForeground( Color.black );
       pantallaEtiqueta.setFont( new Font( "Arial", Font.PLAIN, 74 ) );
