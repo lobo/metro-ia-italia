@@ -12,55 +12,55 @@ public class Dibujo extends Frame{
    
    // configurar GUI
    public Dibujo(List<Pixel> lista){
-      super( "Camino óptimo" );    
+      super( "Camino optimo" );    
  
-// establecer menú Archivo y sus elementos de menú
+// establecer menu Archivo y sus elementos de meni
       Menu menuArchivo = new Menu( "Archivo" );
  
-      // establecer elemento de menú Acerca de...
+      // establecer elemento de menu Acerca de...
       MenuItem elementoAcerca = new MenuItem( "Acerca de..." );
       menuArchivo.add( elementoAcerca );
       elementoAcerca.addActionListener(
  
-         new ActionListener() {  // clase interna anónima
+         new ActionListener() {  // clase interna anonima
  
-            // mostrar cuadro de diálogo de mensaje cuando el usuario seleccione Acerca de...
+            // mostrar cuadro de dialogo de mensaje cuando el usuario seleccione Acerca de...
             public void actionPerformed( ActionEvent evento )
             {
                JOptionPane.showMessageDialog( Dibujo.this,
-                  "Este software fue diseñado por: \nEstéfano José Carrillo Blanco",
+                  "Este software fue disenado por el grupo 4",
                   "Acerca de", JOptionPane.PLAIN_MESSAGE );
             }
  
-         }  // fin de la clase interna anónima
+         }  // fin de la clase interna anonima
  
       ); // fin de la llamada a addActionListener
  
-      // establecer elemento de menú Salir
+      // establecer elemento de menu Salir
       MenuItem elementoSalir = new MenuItem( "Salir" );
       menuArchivo.add( elementoSalir );
       elementoSalir.addActionListener(
  
-         new ActionListener() {  // clase interna anónima
+         new ActionListener() {  // clase interna anonima
  
-            // terminar la aplicación cuando el usuario haga clic en elementoSalir
+            // terminar la aplicacion cuando el usuario haga clic en elementoSalir
             public void actionPerformed( ActionEvent evento )
             {
                System.exit( 0 );
             }
  
-         }  // fin de la clase interna anónima
+         }  // fin de la clase interna anonima
  
       ); // fin de la llamada a addActionListener
  
-      // crear barra de menús y adjuntarla a la ventana 
+      // crear barra de menus y adjuntarla a la ventana 
       MenuBar barra = new MenuBar();
       setMenuBar( barra );
       barra.add( menuArchivo );   
  
-   // Clase anidada que permite terminar la ejecución de la animación
+   // Clase anidada que permite terminar la ejecucion de la animacion
       this.addWindowListener(
-        // Definición de la clase anónima para controlar el cierre de
+        // Definicion de la clase anonima para controlar el cierre de
         // la ventana
         new WindowAdapter() {
           public void windowClosing( WindowEvent evt ) {
