@@ -7,11 +7,8 @@ import javax.swing.*;
  
 public class Dibujo extends Frame{
 	
-   /**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
-private JTextArea areaTexto1;
+	private JTextArea areaTexto1;
 
    
    // configurar GUI
