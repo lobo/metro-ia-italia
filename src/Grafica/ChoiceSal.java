@@ -30,8 +30,8 @@ public class ChoiceSal extends Applet implements ItemListener {
 
 		/* Decoration */
 		Estaciones [0] = "Estacion de Origen ...";
-		Estaciones [1]= "Amendola Fiera";
-		Estaciones [2]= "Bande Nere";
+		Estaciones [1]= "AmendolaFiera";
+		Estaciones [2]= "Bandenere";
 		Estaciones [3]= "Bisceglie";
 		Estaciones [4]= "Buonarroti";
 		Estaciones [5]= "Cadorna";
@@ -44,7 +44,7 @@ public class ChoiceSal extends Applet implements ItemListener {
 		Estaciones [12]= "Cordusio";
 		Estaciones [13]= "Crescenzago";
 		Estaciones [14]= "Crocetta";
-		Estaciones [15]= "De Angeli";
+		Estaciones [15]= "DeAngeli";
 		Estaciones [16]= "Duomo";
 		Estaciones [17]= "Famagosta";
 		Estaciones [18]= "Gambara";
@@ -52,40 +52,39 @@ public class ChoiceSal extends Applet implements ItemListener {
 		Estaciones [20]= "Gioia";
 		Estaciones [21]= "Gorla";
 		Estaciones [22]= "Inganni";
-		Estaciones [23]= "Lambrate FS";
+		Estaciones [23]= "LambrateFS";
 		Estaciones [24]= "Lanza";
 		Estaciones [25]= "Lima";
-		Estaciones [26]= "Lodi Tibb";
+		Estaciones [26]= "LodiTibb";
 		Estaciones [27]= "Loreto";
-		Estaciones [28]= "Lotto Fiera";
+		Estaciones [28]= "LottoFiera";
 		Estaciones [29]= "Maciachini";
 		Estaciones [30]= "Missori";
 		Estaciones [31]= "Montenapoleone";
 		Estaciones [32]= "Moscova";
-		Estaciones [33]= "P.Ta Venezia";
-		Estaciones [34]= "P.Ta Genova FS";
+		Estaciones [33]= "PTaVenezia";
+		Estaciones [34]= "PTaGenovaFS";
 		Estaciones [35]= "Pagano";
 		Estaciones [36]= "Palestro";
 		Estaciones [37]= "Pasteur";
 		Estaciones [38]= "Piola";
-		Estaciones [39]= "Porta Romana";
+		Estaciones [39]= "PortaRomana";
 		Estaciones [40]= "Precotto";
 		Estaciones [41]= "Primaticcio";
 		Estaciones [42]= "QT8";
 		Estaciones [43]= "Repubblica";
 		Estaciones [44]= "Romolo";
 		Estaciones [45]= "Rovereto";
-		Estaciones [46]= "S. Agostino";
-		Estaciones [47]= "S. Ambrogio";
-		Estaciones [48]= "S. Babila";
+		Estaciones [46]= "SAgostino";
+		Estaciones [47]= "SAmbrogio";
+		Estaciones [48]= "SBabila";
 		Estaciones [49]= "Sondrio";
 		Estaciones [50]= "Turati";
 		Estaciones [51]= "Turro";
 		Estaciones [52]= "Udine";
 		Estaciones [53]= "Wagner";
-		Estaciones [54]= "Villa SG";
+		Estaciones [54]= "VillaSG";
 		Estaciones [55]= "Zara" ;
-
 		for (i = 0; i < Estaciones.length; ++i) {
 			Selector.addItem(Estaciones[i],i);
 		}

@@ -30,8 +30,8 @@ public class ChoiceLle extends Applet implements ItemListener {
 
 		/* Decoration */
 		Estaciones [0] = "Estacion de Destino ...";
-		Estaciones [1]= "Amendola Fiera";
-		Estaciones [2]= "Bande Nere";
+		Estaciones [1]= "AmendolaFiera";
+		Estaciones [2]= "Bandenere";
 		Estaciones [3]= "Bisceglie";
 		Estaciones [4]= "Buonarroti";
 		Estaciones [5]= "Cadorna";
@@ -44,7 +44,7 @@ public class ChoiceLle extends Applet implements ItemListener {
 		Estaciones [12]= "Cordusio";
 		Estaciones [13]= "Crescenzago";
 		Estaciones [14]= "Crocetta";
-		Estaciones [15]= "De Angeli";
+		Estaciones [15]= "DeAngeli";
 		Estaciones [16]= "Duomo";
 		Estaciones [17]= "Famagosta";
 		Estaciones [18]= "Gambara";
@@ -62,8 +62,8 @@ public class ChoiceLle extends Applet implements ItemListener {
 		Estaciones [30]= "Missori";
 		Estaciones [31]= "Montenapoleone";
 		Estaciones [32]= "Moscova";
-		Estaciones [33]= "P.Ta Venezia";
-		Estaciones [34]= "P.Ta Genova FS";
+		Estaciones [33]= "PTaVenezia";
+		Estaciones [34]= "PTaGenovaFS";
 		Estaciones [35]= "Pagano";
 		Estaciones [36]= "Palestro";
 		Estaciones [37]= "Pasteur";
@@ -75,15 +75,15 @@ public class ChoiceLle extends Applet implements ItemListener {
 		Estaciones [43]= "Repubblica";
 		Estaciones [44]= "Romolo";
 		Estaciones [45]= "Rovereto";
-		Estaciones [46]= "S. Agostino";
-		Estaciones [47]= "S. Ambrogio";
-		Estaciones [48]= "S. Babila";
+		Estaciones [46]= "SAgostino";
+		Estaciones [47]= "SAmbrogio";
+		Estaciones [48]= "SBabila";
 		Estaciones [49]= "Sondrio";
 		Estaciones [50]= "Turati";
 		Estaciones [51]= "Turro";
 		Estaciones [52]= "Udine";
 		Estaciones [53]= "Wagner";
-		Estaciones [54]= "Villa SG";
+		Estaciones [54]= "VillaSG";
 		Estaciones [55]= "Zara" ;
 		
 			
