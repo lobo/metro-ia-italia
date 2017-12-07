@@ -7,6 +7,10 @@ import javax.swing.JScrollPane;
 
 
 public class ChoiceSal extends Applet implements ItemListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	/* Declaration */
 	private LayoutManager Layout;
 	String [] Estaciones = new String [63];
@@ -14,6 +18,7 @@ public class ChoiceSal extends Applet implements ItemListener {
 	private Font Times;
 	Ventana salida;
 
+	@SuppressWarnings("deprecation")
 	public ChoiceSal (Ventana salida, JScrollPane panel, Container contentpane) {
 		/* Declaration */
 		this.salida = salida;

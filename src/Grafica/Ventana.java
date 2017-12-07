@@ -6,7 +6,11 @@ import javax.swing.*;
  
 public class Ventana extends JFrame{
 	
-   private JLabel pantallaEtiqueta;
+   /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+private JLabel pantallaEtiqueta;
    private String salida;
    private String llegada;
    

@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 import Arbol.*;
-import Grafica.Pixel;
 import jdd.graph.*;
 
 	public class Grafo extends jdd.graph.Graph{
@@ -78,7 +77,7 @@ import jdd.graph.*;
 			Nodo hijo = (Nodo) arista.n2;
 			if (hijo.getNombre()!= nombre){
 				Elemento elemento = new Elemento(arista.weight,hijo.distancia(fin),hijo);
-				LTreeNode<Elemento> node = new LTreeNode(elemento,nodo,null);
+				LTreeNode<Elemento> node = new LTreeNode<Elemento>(elemento,nodo,null);
 				lista.add(node);
 			}
 		}
