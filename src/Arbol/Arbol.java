@@ -69,7 +69,6 @@ public LTreeNode<Elemento> CalcularRecorrido(){
 	 }
 
 		 System.out.println(nodo.element().getnodo().getNombre());
-		 System.out.println(nodo.element().getnodo().getDegree());
 		 
 		 nodo.element().setrecorrido(gh);
 		 
