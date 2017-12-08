@@ -96,7 +96,7 @@ public class ChoiceSal extends Applet implements ItemListener {
 		Selector.addItemListener (this);
 		Selector.select (0);
 	}
-
+	
 	public void itemStateChanged(ItemEvent e) {
 		int Selection;
 		Selection = Selector.getSelectedIndex();

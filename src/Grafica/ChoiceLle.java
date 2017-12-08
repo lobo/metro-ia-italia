@@ -52,12 +52,12 @@ public class ChoiceLle extends Applet implements ItemListener {
 		Estaciones [20]= "Gioia";
 		Estaciones [21]= "Gorla";
 		Estaciones [22]= "Inganni";
-		Estaciones [23]= "Lambrate FS";
+		Estaciones [23]= "LambrateFS";
 		Estaciones [24]= "Lanza";
 		Estaciones [25]= "Lima";
-		Estaciones [26]= "Lodi Tibb";
+		Estaciones [26]= "LodiTibb";
 		Estaciones [27]= "Loreto";
-		Estaciones [28]= "Lotto Fiera";
+		Estaciones [28]= "LottoFiera";
 		Estaciones [29]= "Maciachini";
 		Estaciones [30]= "Missori";
 		Estaciones [31]= "Montenapoleone";
@@ -68,7 +68,7 @@ public class ChoiceLle extends Applet implements ItemListener {
 		Estaciones [36]= "Palestro";
 		Estaciones [37]= "Pasteur";
 		Estaciones [38]= "Piola";
-		Estaciones [39]= "Porta Romana";
+		Estaciones [39]= "PortaRomana";
 		Estaciones [40]= "Precotto";
 		Estaciones [41]= "Primaticcio";
 		Estaciones [42]= "QT8";

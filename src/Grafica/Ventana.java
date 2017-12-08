@@ -24,7 +24,7 @@ public class Ventana extends JFrame{
    public Ventana(){
       super( "Camino optimo" );    
  
-// establecer men� Archivo y sus elementos de men�
+// establecer menu Archivo y sus elementos de menu
       JMenu menuArchivo = new JMenu( "Archivo" );
       menuArchivo.setMnemonic( 'A' );
  
@@ -34,9 +34,9 @@ public class Ventana extends JFrame{
       menuArchivo.add( elementoAcerca );
       elementoAcerca.addActionListener(
  
-         new ActionListener() {  // clase interna an�nima
+         new ActionListener() {  // clase interna anonima
  
-            // mostrar cuadro de di�logo de mensaje cuando el usuario seleccione Acerca de...
+            // mostrar cuadro de dialogo de mensaje cuando el usuario seleccione Acerca de...
             public void actionPerformed( ActionEvent evento )
             {
             	JOptionPane.showMessageDialog( Ventana.this,
@@ -62,11 +62,11 @@ public class Ventana extends JFrame{
                System.exit( 0 );
             }
  
-         }  // fin de la clase interna an�nima
+         }  // fin de la clase interna anonima
  
       ); // fin de la llamada a addActionListener
  
-      // crear barra de men�s y adjuntarla a la ventana 
+      // crear barra de menus y adjuntarla a la ventana 
       JMenuBar barra = new JMenuBar();
       setJMenuBar( barra );
       barra.add( menuArchivo );   
@@ -101,7 +101,7 @@ public class Ventana extends JFrame{
     	              // texto.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
     	               Dibujo aplicacion = new Dibujo(AEstrella.recorridoOptimo());
     	            }
-    	         }  // fin de la clase interna an�nima    	 
+    	         }  // fin de la clase interna anonima    	 
     	      ); // fin de la llamada a addActionListener
 
       // establecer etiqueta para mostrar texto
