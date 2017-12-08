@@ -84,11 +84,17 @@ public class Dibujo extends Frame{
       if (i > 0){
     		cadena = cadena +"   ||  ("+lista.get(i-1).getLinea()+")\n";
     	  }
-      }
-
+    }
+    
+    System.out.println(cadena);
+    Integer cantidad_estaciones = cadena.length();
+    String numero_estaciones = cantidad_estaciones.toString();
+    
     // establecer areaTexto1
     areaTexto1 = new JTextArea( cadena, 700, 300 );
+    //JTextArea areaTexto2 = new JTextArea( numero_estaciones, 700, 300 );
     add( new JScrollPane( areaTexto1 ) );
+    //add( new JScrollPane( areaTexto2 ) );
 
    } // fin del constructor
  

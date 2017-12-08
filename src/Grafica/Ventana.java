@@ -76,8 +76,7 @@ public class Ventana extends JFrame{
       panel.setLayout(null);
       panel.setAutoscrolls(true);
       final Container contentpane = getContentPane();
-      
-
+ 
 
 	  final ChoiceSal Salida = new ChoiceSal(this,panel,contentpane);
 	  final ChoiceLle Llegada = new ChoiceLle(this,panel,contentpane);
@@ -92,13 +91,11 @@ public class Ventana extends JFrame{
     	            // terminar la aplicacion cuando el usuario haga clic en elementoSalir
     	            public void actionPerformed( ActionEvent evento )
     	            {
-     	               System.out.print(Salida);
-    	               System.out.print(" - ");
-    	               System.out.println(Llegada);
+     	           //System.out.print(Salida);
+    	               //System.out.print(" - ");
+    	               //System.out.println(Llegada);
     	               AA AEstrella = new AA(salida,llegada);
-    	               JFrame.setDefaultLookAndFeelDecorated(false);
-    	              // AreaTexto texto = new AreaTexto(AEstrella.recorridoObtimo());
-    	              // texto.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+    	               JFrame.setDefaultLookAndFeelDecorated(false);   	               
     	               Dibujo aplicacion = new Dibujo(AEstrella.recorridoOptimo());
     	            }
     	         }  // fin de la clase interna anonima    	 
