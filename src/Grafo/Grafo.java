@@ -11,9 +11,9 @@ import jdd.graph.*;
 	public class Grafo extends jdd.graph.Graph{
 		
 		
-	List<Nodo> nodos = new ArrayList<Nodo>();;
-	List<Edge> edges = new ArrayList<Edge>();;
-	Map<String, List<Edge>> tabla = new HashMap<String, List<Edge>>();;
+	List<Nodo> nodos = new ArrayList<Nodo>();
+	List<Edge> edges = new ArrayList<Edge>();
+	Map<String, List<Edge>> tabla = new HashMap<String, List<Edge>>();
 		
 	public Grafo(boolean arg0) {
 			super(arg0);
