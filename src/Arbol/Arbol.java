@@ -1,6 +1,5 @@
 package Arbol;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -22,10 +21,10 @@ public class Arbol  {
 	 this.salida = salida;
 	 this.llegada = llegada;
 	 this.grafo = grafo;
-	 this.arbol.addRoot(new Elemento(0,salida.distancia(llegada),salida));
+	 this.arbol.setRoot(new Elemento(0,salida.distancia(llegada),salida));
 	 this.arbol.root.element().setrecorrido(salida.distancia(llegada));
-	 this.arbol.root.setChild(grafo.getChild(this.arbol.root, llegada));
-	 addList(posibles,this.arbol.root.getChild());
+	 this.arbol.root.setChildren(grafo.getChildren(this.arbol.root, llegada));
+	 addList(posibles,this.arbol.root.getChildren());
  }
 	
  
@@ -51,7 +50,7 @@ public LTreeNode<Elemento> CalcularRecorrido(){
 	 LTreeNode<Elemento> nodo = new LTreeNode<Elemento>(null,null,null);
 	 LTreeNode<Elemento> nod = new LTreeNode<Elemento>(null,null,null);
 	 Iterator<LTreeNode<Elemento>> iterador = posibles.iterator(); 
-	 int gh = 0;
+	 double gh = 0;
 	 nod = iterador.next();
 	 gh = gh(nod);
 	 nodo=nod;
@@ -87,14 +86,14 @@ public LTreeNode<Elemento> CalcularRecorrido(){
 			 posibles.remove(iterad.next());
 		 }
 		 
-		 if (nodo.getChild() == null){
-			 nodo.setChild(grafo.getChild(nodo, llegada));
-			 addList(posibles,nodo.getChild());
+		 if (nodo.getChildren() == null){
+			 nodo.setChildren(grafo.getChildren(nodo, llegada));
+			 addList(posibles,nodo.getChildren());
 		 }
 	 return nodo;
  }
  
- public int gh (LTreeNode<Elemento> nodo){
+ public double gh (LTreeNode<Elemento> nodo){
 	 return nodo.getParent().element().recorridoParcial() + nodo.element().recorridoMax();
  }
  

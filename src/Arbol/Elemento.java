@@ -2,10 +2,12 @@ package Arbol;
 
 import Grafo.Nodo;
 
+/** Encapsulates Nodo and adds double recorrido, int h, double g as members **/
 public class Elemento {
 	
 	private double g;
-	private int h,recorrido;
+	private int h;
+    private double recorrido;
 	private Nodo nodo;
 	
 	public Elemento(double g, int h, Nodo nodo){
@@ -18,7 +20,7 @@ public class Elemento {
 		return this.g;
 	}
 	
-	public void setG(int g){
+	public void setG(double g){
 		this.g = g;
 	}
 	
@@ -41,15 +43,15 @@ public class Elemento {
 		this.nodo = nodo;
 	}
 	
-	public int getrecorrido(){
+	public double getrecorrido(){
 		return this.recorrido;
 	}
 	
-	public void setrecorrido(int recorrido){
+	public void setrecorrido(double recorrido){
 		this.recorrido = recorrido;
 	}	
 	
-	public int recorridoParcial(){
+	public double recorridoParcial(){
 		return this.recorrido-this.h;
 	}
 	

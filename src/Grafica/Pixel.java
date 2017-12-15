@@ -4,6 +4,7 @@ public class Pixel {
 	
 	String Nombre, linea;
 	int x,y;
+	int distance;
 	
 
 	public Pixel(int x, int y, String Nombre, String linea) {
@@ -42,4 +43,14 @@ public class Pixel {
 	public int getY(){
 		return this.y;
 	}
+
+	public void setDistance(int dist) {
+		this.distance = dist;
+	}
+
+	public int getDistance() {
+		return this.distance;
+	}
+
 }
+

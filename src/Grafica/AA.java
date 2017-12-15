@@ -266,6 +266,33 @@ public class AA {
 			Pixel pixel = new Pixel(nodo.getX(), nodo.getY(), nodo.getNombre(), linea);
 			recorrido.add(pixel);
 		}
+		// Save travel time in last pixel
+		if (recorrido.isEmpty()) {
+			throw new RuntimeException("Empty recorrido list");
+		}
+		recorrido.get(recorrido.size()-1).setDistance(recordTravelTime(grafo, recorrido));
 		return recorrido;
+	}
+
+	private int recordTravelTime(Grafo grafo, List<Pixel> recorrido) {
+		int travelTime = 0;
+		Pixel pixel;
+		Pixel pixel2;
+		String nameNode1;
+		String nameNode2;
+		for (int count = 0; count < recorrido.size()-1; count++) {
+			pixel = recorrido.get(count);
+			pixel2 = recorrido.get(count+1);
+			nameNode1 = pixel.Nombre;
+			nameNode2 = pixel2.Nombre;
+
+			for (Edge edge : grafo.getGrafoEdges()) {
+				if ((edge.n1.getLabel().equals(nameNode1) && edge.n2.getLabel().equals(nameNode2)) ||
+						(edge.n2.getLabel().equals(nameNode1) && edge.n1.getLabel().equals(nameNode2))) {
+					travelTime += edge.id;
+				}
+			}
+		}
+		return travelTime;
 	}
 }
