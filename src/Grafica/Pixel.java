@@ -12,6 +12,7 @@ public class Pixel {
 		this.y = y;
 		this.Nombre = Nombre;
 		this.linea = linea;
+		this.distance = 0;
 	}
 	
 
