@@ -207,6 +207,35 @@ public class AA {
 		grafo.addEdge (Sondrio, Zara, 72, "linea 3");
 		grafo.addEdge (Zara, Maciachini, 96, "linea 3");
 
+		/** Doesn't work because we get the algorithm into a loop. :-(
+		// Metanodes
+		Nodo Cadorna = grafo.addNode("Cadorna", 9, 10);
+		grafo.addEdge(Cadorna, CadornaInt, 0, "Cambiar andén");
+		grafo.addEdge(Cadorna, CadornaR, 0, "Cambiar andén");
+		grafo.addEdge(Cadorna, CadornaTrans, 0, "Cambiar andén");
+		grafo.addEdge(Cadorna, CadornaV, 0, "Cambiar andén");
+
+		Nodo Centrale = grafo.addNode("Centrale", 13, 6);
+		grafo.addEdge(Centrale, CentraleA, 0 , "Cambiar andén");
+		grafo.addEdge(Centrale, CentraleInt, 0 , "Cambiar andén");
+		grafo.addEdge(Centrale, CentraleTrans, 0 , "Cambiar andén");
+		grafo.addEdge(Centrale, CentraleV, 0 , "Cambiar andén");
+
+		Nodo Duomo = grafo.addNode("Duomo", 12, 10);
+		grafo.addEdge(Duomo, DuomoA, 0, "Cambiar andén");
+		grafo.addEdge(Duomo, DuomoInt, 0, "Cambiar andén");
+		grafo.addEdge(Duomo, DuomoR, 0, "Cambiar andén");
+		grafo.addEdge(Duomo, DuomoTrans, 0, "Cambiar andén");
+
+		Nodo Loreto = grafo.addNode("Loreto", 15, 6);
+		grafo.addEdge(Loreto, LoretoInt, 0, "Cambiar andén");
+		grafo.addEdge(Loreto, LoretoR, 0, "Cambiar andén");
+		grafo.addEdge(Loreto, LoretoTrans, 0, "Cambiar andén");
+		grafo.addEdge(Loreto, LoretoV, 0, "Cambiar andén");
+		**/
+
+		// fin de grafo
+
 
 		Iterator<Edge> l = grafo.getMap().get(salida).iterator();
 		boolean cond = true;
